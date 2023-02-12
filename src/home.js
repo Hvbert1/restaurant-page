@@ -3,6 +3,7 @@ function createHome() {
     const main = document.createElement("div");
     const mainHeading = document.createElement("div");
     const mainContent = document.createElement("div");
+    const mainPic = document.createElement("img");
     const btn = document.createElement("button");
 
     main.id = "main";
@@ -15,8 +16,13 @@ function createHome() {
     document.getElementById("content").appendChild(main);
     document.getElementById("content").appendChild(btn);
 
+    document.getElementById("main").appendChild(mainPic);
     document.getElementById("main").appendChild(mainHeading);
     document.getElementById("main").appendChild(mainContent);
 }
 
-export default createHome();
+function loadHome() {
+    return createHome();
+}
+
+export default loadHome();

@@ -1,11 +1,7 @@
 
-import loadHome from './home'
+import loadHome from './home';
+import './style.css';
 
-function createHome() {
-    loadHome();
-}
-
-createHome();
-
+loadHome();
 
 
