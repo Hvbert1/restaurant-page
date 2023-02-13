@@ -1,3 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F3F5;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #1b3649;
+}
+
+#about {
+    font-size: 2.5rem;
+}
+
 #main {
-    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1rem;
+    margin: 0 20rem;
+    color: #877159;
+}
+
+button {
+    background-color: #de9a50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
 }
