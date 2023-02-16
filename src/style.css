@@ -8,9 +8,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 10px;
     gap: 2rem;
 }
+
+/* Home */
 
 #header {
     display: flex;
@@ -33,7 +35,7 @@ h1 {
     align-items: center;
     gap: 2rem;
     font-size: 1rem;
-    width: 15rem;
+    width: 20rem;
     color: #877159;
 }
 
@@ -44,4 +46,49 @@ button {
     padding: 15px 32px;
     text-align: center;
     font-size: 16px;
+}
+
+/* Menu */
+
+#menuHeader {
+    font-size: 4rem;
+    color: #1b3649;
+}
+
+#price {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+#menuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    padding-bottom: 5rem;
+    margin-bottom: 2.5rem;
+    width: 40%;
+    border-bottom: 1px solid grey;
+}
+
+#entree, #mains, #dessert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#picHeader {
+    font-size: 2.5rem;
+}
+
+#gallery img {
+    padding: 5px;
+    width: 300px;
+}
+
+#gallery #item2 {
+    height: 300px;
+    width: 500px;
 }
