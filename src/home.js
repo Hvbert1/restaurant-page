@@ -20,7 +20,7 @@ export default function createHome() {
 
     heading.innerHTML = "Welcome to Gusteau's";
     mainHeading.innerHTML = "About Us";
-    mainContent.innerHTML = "Gusteau's is a fine dining restaurant located in the heart of Paris, home to the most famous chef in Paris, Auguste Gusteau. The restaurant overlooks the Eiffel Tower and is a delight in both food and in experience."; 
+    mainContent.innerHTML = "Gusteau's is a fine dining restaurant located in the heart of Paris, overlooking the Eiffel Tower. It is home to the most famous chef in Paris, Auguste Gusteau, of whom reflects the depth and richness of French cuisine."; 
     btn.innerHTML = "Reservations";
 
     document.getElementById("content").appendChild(home);
