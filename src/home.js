@@ -1,5 +1,6 @@
 import mainImg from './painting.jpeg';
 
+
 export default function createHome() {
     const home = document.createElement("div");
     const homeImg = document.createElement("img");    
@@ -17,6 +18,7 @@ export default function createHome() {
     header.id = "header";
     main.id = "main";
     mainHeading.id = "about"
+    btn.id = "btn"
 
     heading.innerHTML = "Welcome to Gusteau's";
     mainHeading.innerHTML = "About Us";

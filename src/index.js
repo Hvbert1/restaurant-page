@@ -1,8 +1,7 @@
-
-import './style.css';
 import loadHome from './home';
 import loadContact from './contact';
 import loadMenu from './menu';
+import './style.css';
 
 function reset () {
     document.getElementById("content").innerHTML = "";
@@ -16,6 +15,10 @@ function createNav() {
     homeButton.addEventListener("click", () => {
         reset();
         loadHome();
+        document.getElementById("btn").addEventListener("click", () => {
+            reset();
+            loadContact();
+        });
     });
 
     const menuButton = document.createElement("button");
@@ -42,4 +45,9 @@ document.getElementById("content").appendChild(createNav());
 
 createNav();
 loadHome();
+
+document.getElementById("btn").addEventListener("click", () => {
+    reset();
+    loadContact();
+});
 
