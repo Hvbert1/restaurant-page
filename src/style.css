@@ -48,6 +48,10 @@ button {
     font-size: 1rem;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* Menu */
 
 .menu {
